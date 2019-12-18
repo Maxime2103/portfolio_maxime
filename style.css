@@ -1,4 +1,83 @@
-bandeau{flex-direction: row;
-    border: 10m;
+.boite2{
+    display: flexbox;
+    margin: 0em;
+    padding: 0em;
+}
 
+header{
+    background-color: lightgray;
+}
+#bandeau {
+display: flex;
+flex-direction: row;
+color:darkred;
+box-shadow:0.2em 0.2em 0.3em rgba(19, 19, 95, 0.521);
+margin-top: -0.46em;
+}
+
+#accueil{
+    padding-left: 1em;
+    font-size: x-large;
+
+}
+#qui{
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 39em;
+    border: darkred;
+    border-style: solid;
+    border-radius: 10em; 
+    background-color: white;
+    margin-bottom: 3.2em;
+
+}
+
+
+
+
+#competences{
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    margin-left: 0.3em;
+    border: darkred;
+    border-style: solid;
+    border-radius: 10em; 
+    background-color: white;
+    margin-bottom: 3.2em;
+
+
+
+}
+
+#pro{
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    margin-left: 0.3em;
+    border: darkred;
+    border-style: solid;
+    border-radius: 10em; 
+    background-color: white;
+    margin-bottom: 3.2em;
+
+
+}
+#formations{
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    margin-left: 0.3em;
+    border: darkred;
+    border-style: solid;
+    border-radius: 10em; 
+    background-color: white;
+    margin-bottom: 3.2em;
+
+
+}
+
+
+
+
+
+#images{background-image: url(videos.jpg);
+    opacity: 10% ;
 }
