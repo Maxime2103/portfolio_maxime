@@ -83,14 +83,7 @@
   line-height: 21px;
 }
 
-.navbar .navbar-nav.navbar-logo {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 49px;
-  top: -4px;
-}
+
 
 .navbar .navbar-nav .nav-link.btn {
   padding: 11px 22px;
