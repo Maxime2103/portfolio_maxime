@@ -368,10 +368,6 @@ legend {
     white-space: normal
 }
 
-progress {
-    vertical-align: baseline
-}
-
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
     height: auto
