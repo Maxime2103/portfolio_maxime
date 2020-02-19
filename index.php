@@ -58,9 +58,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#contact">Me contacter</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li> -->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="mentions.html">Mentions légales</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -280,6 +280,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <?php ?>
 
 </body>
 

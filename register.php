@@ -98,13 +98,13 @@
 
 
         //validation du numero
-        // if($numero < 10){
-        //     $formIsValid = false;
-        //     $errors[] = "Numéro de téléphone trop court.";
-        // }
-        elseif($numero > 10){
+        if(mb_strlen($numero) > 15){
             $formIsValid = false;
             $errors[] = "Numéro de téléphone trop long.";
+        }
+        elseif(mb_strlen($numero) < 13){
+            $formIsValid = false;
+            $errors[] = "Numéro de téléphone trop court.";
         }
         //si on n'a pas reçu quelque chose qui ressemble à un nombre
         elseif(!is_numeric(str_replace(" ", "", $numero))){
